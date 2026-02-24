@@ -7,5 +7,5 @@ def calculate_average(numbers):
 
 if __name__ == "__main__":
     numbers = [10, 20, 30, 40]  
-    calculate_average(numbers)__:
+    calculate_average(numbers):
     calculate_average()
