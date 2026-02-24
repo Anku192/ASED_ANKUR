@@ -6,6 +6,6 @@ def calculate_average(numbers):
     print(f"Average: {average:.2f}")
 
 if __name__ == "__main__":
-    numbers = [10, 20, 30, 40]  # sample input for CI
-    calculate_average(numbers)__":
+    numbers = [10, 20, 30, 40]  
+    calculate_average(numbers)__:
     calculate_average()
