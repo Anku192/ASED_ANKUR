@@ -21,7 +21,7 @@ from sklearn import model_selection
 from sklearn import linear_model
 
 X=[[4.0],[5.0],[6.0],[7.0],[8.0],[9.0],[10.0],[20.0]]
-Y=[8,10,12,14,16,18,20]
+Y=[8,10,12,14,16,18,20,40]
 X_train,X_test,Y_train,Y_test=model_selection.train_test_split(X,Y,test_size=0.3,random_state=7)
 print("Trining Features",X_train);print("Training Labels",Y_train)
 print("Testing Features",X_test);print("Testing Labels",Y_test)
