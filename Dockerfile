@@ -1,14 +1,10 @@
-# Use official Python image
-FROM python:3.10-slim
+FROM python:3.10
 
-# Set working directory
 WORKDIR /app
 
-# Copy files into container
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
 COPY . .
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Run your Python file
 CMD ["python", "ased_lab_full_stack.py"]
