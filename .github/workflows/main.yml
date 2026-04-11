@@ -11,4 +11,4 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Build Docker image
-      run: docker build -t ased-app .
+      run: docker build -t ased-app ..
