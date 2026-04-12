@@ -11,13 +11,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4   # ✅ updated version
 
       - name: Build Docker image
-        run: docker build -t ased-app .
+        run: docker build -t qml-app .
 
       - name: Run Docker container
-        run: docker run --rm ased-app
+        run: docker run --rm qml-app
 
       - name: Run tests
         run: python -m unittest discover -s . -p "test_*.py" -v
