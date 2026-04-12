@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["python", "ased_lab_full_stack.py"]
+CMD ["python", "qml.py"]
